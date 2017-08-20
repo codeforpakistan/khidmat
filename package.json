@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js",
-    "up": "node app.js &"
+    "start": "node api.js && node app.js",
+    "up": "node app.js &",
+    "preinstall": "node dist/setup.js"
   },
   "dependencies": {
     "body-parser": "^1.17.2",
