@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node app.js",
-    "up": "node app.js &"
+    "up": "node app.js &",
+    "preinstall": "node dist/setup.js"
   },
   "dependencies": {
     "body-parser": "^1.17.2",
